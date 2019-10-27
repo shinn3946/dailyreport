@@ -1,0 +1,144 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-image: url("images/main.jpg");
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.5);
+    color: white;
+}
+
+.header-left {
+    float:left;
+    line-height: 65px;
+    opacity: 0.5;
+}
+
+.header-right {
+    float:right;
+    line-height: 65px;
+    opacity: 0.5;
+}
+
+.top-wrapper {
+    opacity: 0.5;
+}
+
+#inline {
+    display: inline;
+}
+
+.main-wrapper {
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.button:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.login-wrapper {
+    background-color: white;
+    width: 40%;
+    margin: auto;
+}
+
+input {
+    box-sizing: border-box;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    border: 1px solid #1b2538;
+    border-radius: 4px;
+}
+
+input:active {
+    box-sizing: border-box;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: 0 0 5px 1px rgba(218, 60, 65, .5);
+    border-radius: 4px;
+}
+
+textarea {
+    box-sizing: border-box;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    border: 1px solid #1b2538;
+    border-radius: 4px;
+}
+
+textarea:active {
+    box-sizing: border-box;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: 0 0 5px 1px rgba(218, 60, 65, .5);
+    border-radius: 4px;
+}
+
+.data-wrapper {
+    padding-top: 150px;
+}
+
+.join-wrapper {
+    height: 12em;
+    overflow: scroll;
+    width: 40%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.check-wrapper {
+    height: 12em;
+    overflow: scroll;
+    width: 40%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.new-report-wrapper {
+    border-style: outset;
+    padding: 5px 0 15px 0;
+    border-radius: 4px;
+    height: 12em;
+    overflow: scroll;
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+form {
+    text-align: center;
+}
+
+table th {
+    background: #eee;
+}
+table tr:nth-child(odd) th {
+    background: #fff;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 0 0;
+    width: 100%;
+    position: absolute;
+}

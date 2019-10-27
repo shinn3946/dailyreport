@@ -1,0 +1,247 @@
+html, body, div, h1, h2, h3, h4, h5, h6, 
+p, ol, ul, li
+{
+    margin:0;
+    padding:0;
+}
+
+html {
+    font-size: 62.5%;
+  }
+  body {
+    background-image: url("images/login.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: Raleway, "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+.header {
+    width: 100%;
+    padding: 10px 0 0px;
+    background: url('images/bg-header.gif') repeat-x;
+    box-shadow: 0 0 10px 1px #e3e3e3;
+    background-color: #fff;
+  }
+
+.logo {
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    background: url('images/example.png') no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .global-nav { 
+    margin-top: 1.5vh;
+    text-align: center;
+  }
+  .global-nav .nav-item {
+    display: inline-block;
+    margin: 0 1vh;
+  }
+  .global-nav .nav-item a  {
+    text-decoration: none;  
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 8px;
+    color: #666;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    transition: 0.15s;
+  }
+  .global-nav .nav-item.active a,
+  .global-nav .nav-item a:hover {
+    background-color: #d03c56;
+    color: #fff;
+  }
+
+  .global-nav .nav-item.username a:hover {
+    background-color: #fff;
+    color: #666;
+  }
+
+.top-wrapper {
+    padding: 12vh 3vw 5vh;
+  }
+  .site-title-sub {
+    margin: 0 0 3vh;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 2px #999;
+  }
+
+  .site-title-sub::before,
+  .site-title-sub::after {
+    content: '';
+    display: inline-block;
+    width: 14vw;
+    height: 0.2vh;
+    margin: 0 3vw;
+    background-color: #fff;
+    vertical-align: middle;
+  }
+
+  .site-title {
+    margin: 5vh 0 4vh;
+    font-size: 7.6rem;
+    text-shadow: 4px 4px 4px #999;
+  }
+
+  .site-title-finish {
+    color: white;
+    text-decoration: none;
+    margin: 5vh 0 4vh;
+    font-size: 7.6rem;
+    text-shadow: 4px 4px 4px #999;
+  }
+
+  .site-description {
+    margin-bottom: 5vh;
+    color: #888;
+    font-size: 1.6rem;
+  }
+
+#inline {
+    display: inline;
+}
+
+.button {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #afa58d;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 2.1rem;
+    box-shadow: 0 0 10px 1px #e3e3e3;
+    text-shadow: 2px 2px 2px #999;
+  }
+  .button:hover {
+    opacity: 0.9;
+    box-shadow: 0 0 20px 1px #e3e3e3;
+  }
+  
+  .buttons .button {
+    margin: 0 1vw 6vh 1vw;
+  }
+
+  .button.yellow {
+    background-color: #f1b400;
+  }
+
+  .button.orange {
+    background-color: #ED6D3D;
+  }
+
+  input {
+    box-sizing: border-box;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    border: 1px solid #1b2538;
+    border-radius: 4px;
+}
+
+input:active {
+    box-sizing: border-box;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: 0 0 5px 1px rgba(218, 60, 65, .5);
+    border-radius: 4px;
+}
+
+textarea {
+    box-sizing: border-box;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    border: 1px solid #1b2538;
+    border-radius: 4px;
+}
+
+textarea:active {
+    box-sizing: border-box;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: 0 0 5px 1px rgba(218, 60, 65, .5);
+    border-radius: 4px;
+}
+
+body,
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px #999;
+    margin-top: auto;
+}
+
+.view-wrapper {
+    height: 12em;
+    border-style: outset;
+    padding: 5px 0 15px 0;
+    border-radius: 4px;
+    overflow: scroll;
+    width: 60vw;
+    height: 40vh;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #666;
+}
+
+.login-wrapper {
+  border-style: outset;
+  padding: 5px 0 15px 0;
+  border-radius: 4px;
+  width: 40vw;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color:#fff;
+  color: #666;
+}
+
+.join-wrapper {
+  height: 12em;
+  border-style: outset;
+  padding: 5px 0 15px 0;
+  border-radius: 4px;
+  overflow: scroll;
+  width: 60vw;
+  max-width: 600px;
+  height: 40vh;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #666;
+}
